@@ -28,3 +28,8 @@ Partition: Indicates the partition number.
 Leader: The broker ID that is the leader for this partition. The leader is responsible for all reads and writes for the partition.
 Replicas: A list of broker IDs that host replicas of the partition (including both the leader and followers).
 Isr (In-Sync Replicas): A subset of Replicas that are currently in sync with the leader.
+
+
+6)Start the schema registry
+
+sh bin/schema-registry-start etc/schema-registry/schema-registry.properties
