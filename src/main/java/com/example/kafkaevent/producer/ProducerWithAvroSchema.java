@@ -19,7 +19,7 @@ public class ProducerWithAvroSchema {
 
     @EventListener(ApplicationReadyEvent.class)
     public void publishCustomerRecord() {
-        kafkaTemplate.send("empTopic1", 1, new Employee(100, "Rani"));
+        kafkaTemplate.send("empTopic1", 1, new Employee(400, "pqr", "pqr@gmail.com"));
         log.info("Record published successfully!!");
     }
 
