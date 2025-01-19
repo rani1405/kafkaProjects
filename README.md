@@ -33,3 +33,7 @@ Isr (In-Sync Replicas): A subset of Replicas that are currently in sync with the
 6)Start the schema registry
 
 sh bin/schema-registry-start etc/schema-registry/schema-registry.properties
+
+
+*************************Consumer application(C1)******************
+This is consumer application with schema version v1(id, name).
