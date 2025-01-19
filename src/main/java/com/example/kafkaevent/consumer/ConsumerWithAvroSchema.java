@@ -17,7 +17,7 @@ public class ConsumerWithAvroSchema {
 
    @KafkaListener(topics = "empTopic1", groupId = "emp-consumer-group-4")
     public void consumeEmployeeRecord(Employee employee) {
-       log.info("name:{}, id:{} ", employee.getEmpName(), employee.getId());
+       log.info("name:{}, id:{}, empEmail:{} ", employee.getEmpName(), employee.getId(), employee.getEmpEmail());
         log.info("Record successfully consumed!!");
     }
 

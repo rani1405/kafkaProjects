@@ -35,5 +35,5 @@ Isr (In-Sync Replicas): A subset of Replicas that are currently in sync with the
 sh bin/schema-registry-start etc/schema-registry/schema-registry.properties
 
 
-*************************Consumer application(C1)******************
-This is consumer application with schema version v1(id, name).
+*************************Consumer application(C2)******************
+This is consumer application with schema version v2(id, name, empEmail).
